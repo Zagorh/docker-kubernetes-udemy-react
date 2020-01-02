@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 `docker build -f Dockerfile.dev .` - Build using the Dockerfile.dev
 
 `docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>`
+
+`docker run -it 6d80e008b365 npm run test` - Run tests on Docker
